@@ -7,7 +7,7 @@ export default function Article() {
 
   return (<>
     <h1 id='main-header'>Example Header</h1>
-    <p>A paragraph</p>
+    {new Array(33).fill(<p>A paragraph</p>)}
     
     
   </>);
